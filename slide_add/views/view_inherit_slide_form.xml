@@ -6,10 +6,10 @@
         <field name="inherit_id" ref="website_slides.view_slide_slide_form"/>
         <field name="arch" type="xml">
             <xpath expr="//notebook/page[last()]" position="after">
-                    <group name="req_skill" string="Required Skills">
-                        <field name="is_soft"/>
-                        <field name="gpa"/>
-                    </group>
+                <group name="req_skill" string="Required Skills">
+                    <field name="is_soft"/>
+                    <field name="gpa" widget="float"/>
+                </group>
             </xpath>
         </field>
     </record>
