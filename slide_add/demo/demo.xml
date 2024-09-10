@@ -1,7 +1,7 @@
 <odoo>
     <data>
 <!--
-          <record id="object0" model="slide_add.slide_add">
+          <record id="slide_rec1_id" model="slide.slide">
             <field name="name">Object 0</field>
             <field name="value">0</field>
           </record>
