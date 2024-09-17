@@ -1,0 +1,21 @@
+<odoo>
+    <template id="elearning_courses_template" name="eLearning Courses">
+        <t t-call="website.layout"> <!-- This will use the default website layout -->
+            <div class="container"> <!--oe_structure above it-->
+                <h1>Our EOH Courses</h1>
+                <ul>
+                    <!-- Loop through the courses and display them -->
+                    <t t-foreach="courses" t-as="course">
+                        <li>
+                            <strong>
+                                <t t-esc="course.name"/>
+                            </strong>
+                            :
+                            <t t-esc="course.description"/>
+                        </li>
+                    </t>
+                </ul>
+            </div>
+        </t>
+    </template>
+</odoo>

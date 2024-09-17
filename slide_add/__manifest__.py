@@ -24,8 +24,8 @@
     'data': [
         'security/ir.model.access.csv',
         'views/view_inherit_slide_form.xml',
+	'views/courses_controller_temp.xml',
         # 'views/views.xml',
-        # 'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
