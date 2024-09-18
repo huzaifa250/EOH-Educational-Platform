@@ -1,20 +1,45 @@
 <odoo>
     <template id="elearning_courses_template" name="eLearning Courses">
         <t t-call="website.layout"> <!-- This will use the default website layout -->
-            <div class="container"> <!--oe_structure above it-->
-                <h1>Our EOH Courses</h1>
+            <div class="container">
+                <h1>EOH Educational platform</h1>
+                <br/>
+                <h2>EOH Courses</h2>
                 <ul>
-                    <!-- Loop through the courses and display them -->
-                    <t t-foreach="courses" t-as="course">
-                        <li>
-                            <strong>
-                                <t t-esc="course.name"/>
-                            </strong>
-                            :
-                            <t t-esc="course.description"/>
-                        </li>
+                    <t t-if="error_message">
+                        <div class="alert alert-warning">
+                            <t t-esc="error_message"/>
+                        </div>
                     </t>
                 </ul>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Course Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Loop through the courses and display them -->
+                        <t t-set="index" t-value="1"/>
+                        <t t-foreach="my_courses" t-as="course">
+
+                            <tr>
+                                <td>
+                                    <t t-esc="index"/>
+                                    <t t-set="index" t-value="index+1"/>
+                                </td> <!-- Display index number -->
+                                <td>
+                                    <t t-esc="course.name"/>
+                                </td> <!-- Course name -->
+                                <td>
+                                    <t t-esc="course.description"/>
+                                </td> <!-- Course description -->
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
             </div>
         </t>
     </template>
