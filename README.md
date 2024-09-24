@@ -30,9 +30,9 @@ We are working on integrating Zoom into the Odoo eLearning module to enable sche
 
 ## Installation
 
-1. Install Odoo following the [official documentation](https://www.odoo.com/documentation/16.0/administration/install.html)
+1. Install Odoo 16 following the [official documentation](https://www.odoo.com/documentation/16.0/administration/install.html)
 2. Clone this repository:git clone https://github.com/huzaifa250/EOH-Educational-Platform.git
-3. Add the EOH module to your Odoo addons path
+3. Add the EOH module to your Odoo 16 addons path
 4. Update the Odoo module list and install the EOH module
 
 For detailed installation instructions, please refer to our [documentation](link-to-docs).
