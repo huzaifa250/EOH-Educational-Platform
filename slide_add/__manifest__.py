@@ -2,14 +2,17 @@
 {
     'name': "slide_add",
 
-    'summary': """  It's add Required skills to the contents of course""",
+    'summary': """extended E-learning app""",
 
     'description': """
-        Cont development for an E-learning App
+        add new features to an E-learning app :
+        - edit course contents by adding required skills for specifc course
+        - ensure required skills are met
+        - enable extrnal users to access courses from website
     """,
 
     'author': "Huzaifa Elnaeem",
-    'website': "https://www.yourcompany.com",
+    'website': "huz.dark1@gmail.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -24,8 +27,9 @@
     'data': [
         'security/ir.model.access.csv',
         'views/view_inherit_slide_form.xml',
-	'views/courses_controller_temp.xml',
+        'views/courses_controller_temp.xml',
         # 'views/views.xml',
+
     ],
     # only loaded in demonstration mode
     'demo': [
