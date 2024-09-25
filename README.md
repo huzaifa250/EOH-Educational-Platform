@@ -35,6 +35,9 @@ We are working on integrating Zoom into the Odoo eLearning module to enable sche
 3. Add the EOH module to your Odoo 16 addons path
 4. Update the Odoo module list and install the EOH module
 
+
+![Screenshot of the application](images/app_screen.jpeg)
+
 For detailed installation instructions, please refer to our [documentation](link-to-docs).
 
 ## Contributing
