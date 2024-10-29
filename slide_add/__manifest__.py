@@ -8,7 +8,7 @@
         add new features to an E-learning app :
         - edit course contents by adding required skills for specifc course
         - ensure required skills are met
-        - enable extrnal users to access courses from website
+        - enable extrnal users to access courses from website and add specific course as well 
     """,
 
     'author': "Huzaifa Elnaeem",
