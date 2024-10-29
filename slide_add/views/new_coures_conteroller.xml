@@ -1,0 +1,25 @@
+<odoo>
+    <template id="elearning_create_submit_course_temp" name="Create EOH Course">
+        <t t-call="website.layout"> <!-- This will use the default website layout -->
+            <div class="container mt-5">
+                <h2>Create New Course</h2>
+                <form action="/submit/course" method="post" class="needs-validation">
+                    <!--validate the form submission -->
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="mb-3">
+                        <label for="course_name" class="form-label">Course Name</label>
+                        <input type="text" id="course_name" name="course_name" class="form-control"/>
+                        <div class="invalid-feedback">Please enter a course name.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea id="description" name="description" class="form-control" rows="4"/>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Create Course</button>
+                </form>
+            </div>
+        </t>
+    </template>
+</odoo>

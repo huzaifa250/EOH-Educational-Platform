@@ -28,9 +28,11 @@
         'security/ir.model.access.csv',
         'views/view_inherit_slide_form.xml',
         'views/courses_controller_temp.xml',
-        # 'views/views.xml',
+        'views/new_coures_conteroller.xml',
+        # 'views/custom_config_setting.xml',
 
     ],
+    'images': ['static/description/learning_6555186.png'],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
