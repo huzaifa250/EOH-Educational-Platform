@@ -46,8 +46,8 @@ We welcome contributions to EOH! Whether it's improving documentation, adding ne
 
 ## Connect With Us
 
-- [Salma Mohammed](https://www.linkedin.com/in/salma-mohammed-3155a61a4/)
 - [Huzaifa Elnaeem](https://www.linkedin.com/in/huzaifa-elnaeem-415042a6/)
+- [Salma Mohammed](https://www.linkedin.com/in/salma-mohammed-3155a61a4/)
 
 ## License
 

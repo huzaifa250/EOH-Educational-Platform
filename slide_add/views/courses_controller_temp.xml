@@ -32,10 +32,10 @@
                                 </td> <!-- Display index number -->
                                 <td>
                                     <t t-esc="course.name"/>
-                                </td> <!-- Course name -->
+                                </td> 
                                 <td>
                                     <t t-esc="course.description"/>
-                                </td> <!-- Course description -->
+                                </td>
                             </tr>
                         </t>
                     </tbody>
