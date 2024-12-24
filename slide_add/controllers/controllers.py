@@ -38,7 +38,7 @@ class ElearningController(http.Controller):
         # allow users to create course
         name = kwargs.get('course_name')
         description = kwargs.get('description')  # optional
-        responsible_user = kwargs.get('user_id')
+        # responsible_user = kwargs.get('user_id')
         # Log the received data
         _logger.info(
             f"Received data: course_name={name}, description={description}")
